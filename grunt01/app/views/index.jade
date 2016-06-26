@@ -4,15 +4,16 @@ mixin skillsBlock(title, loopItems)
 		ul
 			- each skill in loopItems
 				li  #{skill}
-
 doctype html
 html
 	head
 		title solopx
 		link(href="style/style.css" rel="stylesheet")
 	body
-		p.className#idName Hello SitePoint
-		| Readers!
+		p.className#idName
+			| Hello SitePoint
+			br
+			| Readers!
 		img(src="images/image.png")
 
 		- each job in myData
